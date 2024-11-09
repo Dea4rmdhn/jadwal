@@ -8,7 +8,7 @@ from PIL import Image
 import imageio
 
 
-st.markdown("<h1 style='text-align: center; font-family: \"Comic Sans MS\"; font-style: italic;'>Jadwal Santuy Deak</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-family:"Comic Sans MS"; font-style: italic;'>Jadwal Santuy Deak</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>TODAY'S TIME TABLE</p>", unsafe_allow_html=True)
 
 #Create placeholder for the clock
