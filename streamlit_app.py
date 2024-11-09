@@ -6,7 +6,7 @@ from datetime import datetime
 import time
 from PIL import Image
 import imageio
-import matplotlib.font_manager
+
 
 
 
