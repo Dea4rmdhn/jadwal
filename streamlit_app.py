@@ -14,9 +14,7 @@ import imageio
 st.markdown("<h1 style='text-align: center; font-family:'Comic Sans MS'; font-style: italic;'>Jadwal Santuy Deak</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>TODAY'S TIME TABLE</p>", unsafe_allow_html=True)
 
-font_path = 'Comic Sans MS'
-prop = matplotlib.font_manager.FontProperties(fname=font_path)
-ax.text(..., fontproperties=prop)
+
 
 #Create placeholder for the clock
 clock_placeholder = st.empty()
