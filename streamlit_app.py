@@ -7,12 +7,16 @@ import time
 from PIL import Image
 import imageio
 import matplotlib.font_manager
-print(matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf'))
 
 
 
-st.markdown("<h1 style='text-align: center; font-family:'comici.ttf'; font-style: italic;'>Jadwal Santuy Deak</h1>", unsafe_allow_html=True)
+
+st.markdown("<h1 style='text-align: center; font-family:'Comic Sans MS'; font-style: italic;'>Jadwal Santuy Deak</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>TODAY'S TIME TABLE</p>", unsafe_allow_html=True)
+
+font_path = 'Comic Sans MS'
+prop = matplotlib.font_manager.FontProperties(fname=font_path)
+ax.text(..., fontproperties=prop)
 
 #Create placeholder for the clock
 clock_placeholder = st.empty()
@@ -37,7 +41,7 @@ def draw_clock():
             horizontalalignment='center',
             verticalalignment='center',
             fontsize=12,
-            fontfamily='comici.ttf'
+            fontfamily='Comic Sans MS'
         )
         line_length = 0.95
         x_start = 1.16 * x  
@@ -117,7 +121,7 @@ def draw_clock():
             color='black',
             rotation=rotation_angle,
             rotation_mode='anchor',
-            fontfamily='comici.ttf'
+            fontfamily='Comic Sans MS'
         )
         
 
