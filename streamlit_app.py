@@ -6,6 +6,9 @@ from datetime import datetime
 import time
 from PIL import Image
 import imageio
+import matplotlib.font_manager
+print(matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf'))
+
 
 
 st.markdown("<h1 style='text-align: center; font-family:'Comic Sans MS'; font-style: italic;'>Jadwal Santuy Deak</h1>", unsafe_allow_html=True)
