@@ -34,6 +34,7 @@ def draw_clock():
             horizontalalignment='center',
             verticalalignment='center',
             fontsize=12,
+            fontfamily='Comic Sans MS'
         )
         line_length = 0.95
         x_start = 1.16 * x  
